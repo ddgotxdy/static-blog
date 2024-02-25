@@ -101,9 +101,12 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repository: git@github.com:ddgotxdy/ddgotxdy.github.io.git
-  branch: main
+  - type: git
+    repository: git@github.com:ddgotxdy/ddgotxdy.github.io.git
+    branch: main
+  - type: git
+    repository: git@gitee.com:ddgotxdy/static-blog.git
+    branch: master
 
 # 插件参数配置
 # hexo-generator-searchdb 搜索
